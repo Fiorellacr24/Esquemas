@@ -50,5 +50,5 @@ var verde = document.createElement('div');
 	azul.appendChild(verde);
 	azul.appendChild(negro);
 
-	contenedor.appendChild(rosado);
-	contenedor.appendChild(azul);
+	contenedor.prepend(azul);
+	contenedor.prepend(rosado);
